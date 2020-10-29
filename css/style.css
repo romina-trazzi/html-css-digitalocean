@@ -1,0 +1,61 @@
+/* codie css digila ocean */
+
+/* classi utility */
+
+body {
+    padding-top: 50px;
+}
+
+.jumbotron {
+    background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.card {
+    background-color: white;
+
+}
+
+.p-0 {
+  padding: 0 5px;
+}
+
+/* classi utility  */
+
+
+/* navbar  */
+
+nav {
+    margin-bottom: 0 !important;
+    border: none !important;
+}
+
+#logo-google {
+     height: 18px;
+ }
+
+.loghi {
+     background-color: #f3f5f9;
+ }
+
+.loghi img {
+     width: 100%;
+ }
+
+.scale ul {
+   border-left: 1px solid grey;
+   padding-left: 10px;
+}
+
+.scale li {
+   line-height: 4.5rem;
+   list-style: none;
+   color: grey;
+   font-size: 2rem;
+}
+
+
+.riga {
+   line-height: 123.23px;
+}
