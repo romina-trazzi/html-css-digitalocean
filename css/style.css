@@ -21,7 +21,39 @@ body {
   padding: 0 5px;
 }
 
-/* classi utility  */
+.py_10 {
+    padding: 10px;
+}
+
+/* end classi utility  */
+
+
+/* color */
+
+
+.bg_white {
+    background-color: white;
+}
+
+.bg_grey {
+    background-color: #F3F5F9;
+}
+
+.bg_electric_blue {
+    background-color: #004AFF;
+}
+.bg_blue {
+    background-color: #00229D;
+}
+
+.bg_dark_blue {
+    background-color: #031C4E;
+
+}
+
+
+/* end color */
+
 
 
 /* navbar  */
@@ -55,7 +87,33 @@ nav {
    font-size: 2rem;
 }
 
-
 .riga {
    line-height: 123.23px;
 }
+
+/* end navbar */
+
+
+
+/* section table data */
+
+#table_data{
+     background-color: blue;
+     color: white;
+ }
+
+ #table_data .title{
+     padding-top: 4rem;
+     padding-bottom: 20px;
+ }
+
+ .border-bottom{
+     border-bottom: 1px solid white;
+ }
+
+/* #table_data .row:not(:last-child) - per i bordi */
+
+/* section table data */
+
+/* section rockerbox */
+
