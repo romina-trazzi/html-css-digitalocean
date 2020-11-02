@@ -62,6 +62,10 @@ body {
     color: rgb(111,123,151);
 }
 
+.color_end {
+    color: rgb(122, 133, 157);
+}
+
 .color_elf {
     color: rgb(0, 213,209);
 }
@@ -526,7 +530,25 @@ div.col-sm-12:nth-child(2) {
 /*=====  End of Section start  ======*/
 
 
+/*===== END MAIN ======*/
 
+
+
+/*=====  FOOTER ======*/
+
+.site_footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.copy {
+    padding: 10px 0;
+}
+
+.site_footer a {
+    color: lightgrey;
+    line-height: 2em;
+}
 
 
 
