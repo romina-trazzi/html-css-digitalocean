@@ -67,7 +67,11 @@ body {
     color: white;
 }
 .color_loghi {
-color: rgb(111,123,151);
+    color: rgb(111,123,151);
+}
+
+.color_elf {
+    color: rgb(0, 213,209);
 }
 
 .color_azure {
@@ -413,17 +417,23 @@ div.col-lg-4:nth-child(3) {
 
 
 
+/*========================================================
+    =            Section comment table data            =
+=========================================================*/
 
-/* section table data */
 
-#table_data {
-    background-color: blue;
+.table_data {
+    background: rgb(0,30,154);
+    background: radial-gradient(circle, rgba(0,66,192,1) 0%, rgba(0,30,152,1) 100%);
     color: white;
 }
 
-#table_data .title {
+.table_data a {
+    color: rgb(0, 213,209);
+}
+
+.table_data .title {
     padding-top: 4rem;
-    padding-bottom: 20px;
 }
 
 .border-bottom {
@@ -434,9 +444,36 @@ div.col-lg-4:nth-child(3) {
     font-weight: bold;
 }
 
-/* #table_data .row:not(:last-child) - per i bordi */
+.table_data i {
+    padding-left: 10px;
 
-/* end section table data */
+}
+
+.table_data > div:nth-child(1) > div:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+div.col-sm-12:nth-child(1) {
+    width: 45%;
+    margin-right: 20px;
+}
+
+div.col-sm-12:nth-child(2) {
+    width: 45%;
+    margin-left: 20px;
+}
+
+
+/*=====  End of Section comment block  ======*/
+
+
+
+
+
+
+
+
+
 
 
 /* section rockerbox */
