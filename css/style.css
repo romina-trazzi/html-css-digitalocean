@@ -50,14 +50,6 @@ body {
     background-color: rgb(87, 154, 255);
 }
 
-.bg_electric_blue {
-    background-color: #0067FF;
-}
-
-.bg_blue {
-    background-color: #00229D;
-}
-
 .bg_dark_blue {
     background-color: rgb(3, 28, 78);
 }
@@ -463,10 +455,75 @@ div.col-sm-12:nth-child(2) {
     margin-left: 20px;
 }
 
-
 /*=====  End of Section comment block  ======*/
 
 
+/*=============================================
+    =            Section rockerbox         =
+=============================================*/
+
+.developer h2 {
+    padding-top: 50px;
+}
+
+.developer .fa-chevron-left, .developer .fa-chevron-right {
+    font-size: 2.8em;
+    display: inline;
+    ;
+}
+
+.rockerbox {
+    margin-top: 80px;
+    padding-bottom:50px;
+}
+
+.rockerbox > img {
+    padding: 50px 0 30px 0;
+    display: inline-block;
+}
+
+.rockerbox span {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.rockerbox > a:nth-child(4) i {
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.developer .col-md-3 {
+    line-height: 500px;
+    padding: 0 !important;
+}
+
+.developer > div:nth-child(1) > div:nth-child(3) > div:nth-child(1){
+    padding-bottom: 50px;
+}
+
+/*=====  End of Section rockerbox  ======*/
+
+
+
+/*=============================================
+    =            Section start            =
+=============================================*/
+
+.start {
+    background: rgb(0,30,154);
+    background: radial-gradient(circle, rgba(0,66,192,1) 0%, rgba(0,30,152,1) 100%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+.start h2 {
+    padding: 20px;
+}
+
+.btn_easy {
+    color: rgb(0, 100, 255);
+}
+/*=====  End of Section start  ======*/
 
 
 
@@ -476,16 +533,10 @@ div.col-sm-12:nth-child(2) {
 
 
 
-/* section rockerbox */
 
 
 
 
-
-
-
-
-/* end section rockerbox */
 
 /* end main */
 
