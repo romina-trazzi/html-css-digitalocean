@@ -21,13 +21,13 @@
 
     <link rel="stylesheet" href="css/mediaquery.css">
   </head>
-  
-  
+
+
   <body>
     <header class="site_header">
 
       <!-- navbar -->
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-fixed-top bg_white">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -171,7 +171,7 @@
             </div>
           </div>
           <!-- / riga loghi -->
-          
+
           <!-- riga link -->
           <div class="row">
             <div class="col-md-12">
@@ -186,7 +186,7 @@
       </section>
       <!-- / sezione loghi -->
 
-      
+
       <!-- sezione scale -->
       <section class="scale bg_white">
         <div class="container">
@@ -205,7 +205,9 @@
           </div>
           <!-- /riga parte scritta -->
 
-          <!-- riga lista laterale -->
+          <!-- riga lista laterale + icone -->
+
+          <!-- lista laterale -->
           <div class="row aside">
             <div class="col-md-4">
               <ul>
@@ -216,8 +218,9 @@
                 <li>Monitor</li>
               </ul>
             </div>
-            <!-- /riga lista laterale -->
-            
+            <!-- / lista laterale -->
+
+            <!-- icone -->
             <div class="col-md-8">
               <div class="row">
                 <div class="col-md-6 color_dark_blue">
@@ -241,42 +244,60 @@
                 <div class="col-md-6 color_dark_blue">
                   <img src="img/kublogoicon.svg">
                   <h4 class="text-left strong m_top">Global availability</h4>
-                  <p> Deploy to any of our data center regions around the world.</p> 
+                  <p> Deploy to any of our data center regions around the world.</p>
                 </div>
               </div>
+              <!-- icone -->
+
             </div>
+
           </div>
         </div>
       </section>
-    <!-- / sezione scale -->
+      <!-- / sezione scale -->
 
       <!-- sezione designer -->
-      <section class="designer">
+      <section class="designer bg_grey">
         <div class="container">
+
+          <!-- riga intestazione -->
           <div class="row">
-            <div class="col-lg-12 text-center">
-              <h2>Designed for developers</h2>
-              <p> Build more and spend less time managing your infrastructure with
-              our easy-to-use control panel and API.
+            <div class="col-md-12 text-center">
+              <h2 class="color_dark_blue strong">Designed for developers</h2>
+              <p class="lead color_dark_blue"> Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
               </p>
             </div>
           </div>
+          <!-- / riga intestazione -->
+
+          <!-- riga chevron + carousel -->
           <div class="row">
-            <div class="col-lg-3 text-right">A destra</div>
-            <div class="col-lg-6"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo blanditiis ullam illo, assumenda unde molestias
-              perferendis sunt. Iure, perspiciatis. Quam veniam cum amet commodi
-              harum soluta cumque veritatis assumenda quas?
+            <div class="col-md-3 text-right">
+            <i class="fas fa-chevron-left"></i>
             </div>
-            <div class="col-lg-3">Colonna 3</div>
+            <div class="col-md-6">
+              <div class="carousel">
+                <img src="img/carousel.jpg" alt="image carousel">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <i class="fas fa-chevron-right"></i>
+            </div>
           </div>
+          <!-- / riga chevron + carousel -->
+
+          <!-- riga circle -->
           <div class="row">
-            <!-- <div class="col-lg-12 text-center"> -->
-              <h3>Create compute servers in 55 seconds or less.</h3>
-              <i class="fas fa-circle"></i><i class="far fa-circle"></i>
-              <i class="far fa-circle"></i><i class="far fa-circle"></i>
+           <div class="col-md-12 text-center ">
+              <h5 class="color_dark_blue strong">Create compute servers in 55 seconds or less.</h5>
+              <i class="fas fa-circle color_azure"></i>
+              <i class="far fa-circle color_azure"></i>
+              <i class="far fa-circle color_azure"></i>
+              <i class="far fa-circle color_azure"></i>
             </div>
           </div>
+          <!-- / rige circle -->
+
         </div>
       </section>
       <!-- / sezione designer -->
@@ -286,7 +307,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <h2>The features your business needs</h2>
+              <h2 class="color_dark_blue strong">The features your business needs</h2>
             </div>
           </div>
           <div class="row">
@@ -435,7 +456,7 @@
               <div class="rockerbox">
                 <footer src="img/rockerbox_logo.png" alt="">
                 <p class ="lead">"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
-              <div> 
+              <div>
                 <span> <strong> Rick O'Tool </strong> <br> Co-Founder and CTO </span>
                 <br>
                 <a href="#"> Read story <i><fa fa-angle-right></i> </a>
@@ -471,7 +492,7 @@
     <!-- / main -->
 
     <!-- footer -->
-    <footer class ="site_footer bg_blue"> 
+    <footer class ="site_footer bg_blue">
       <div class="container">
         <div class="row">
           <div class="col-md-4">

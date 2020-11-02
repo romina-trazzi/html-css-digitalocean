@@ -15,10 +15,6 @@ body {
     width: 1200px !important;
 }
 
-.p-0 {
-    padding: 0;
-}
-
 .px_5 {
     padding: 0 5px;
 }
@@ -269,7 +265,7 @@ h4 {
 }
 
 
-/*=====  End of Section loghi  ======*/  
+/*=====  End Section loghi  ======*/  
 
 
 /*=============================================
@@ -296,6 +292,9 @@ h4 {
 
 /* end lista laterale*/
 
+
+/* loghi piccoli */
+
 .scale h4 {
     padding: 0 !important;
 }
@@ -319,13 +318,68 @@ div.color_dark_blue:nth-child(2), div.color_dark_blue:nth-child(4) {
     width: 35%;
 }
 
+/* end loghi piccoli */
+
+
+/*=====  End Section scale  ======*/  
+
+
+
+/*=============================================
+    =            Section designer            =
+=============================================*/ 
+
+.designer p {
+    padding-bottom: 40px;
+}
+
+.designer .row:nth-child(3) {
+    margin-bottom: 70px;
+}
+
+/* carousel */
+
+.designer .col-md-3 {
+    line-height: 300px;
+    padding: 0 !important;
+}
+
+.designer .col-md-6 {
+    padding: 0 !important;
+}
+
+.designer .fa-chevron-left, .designer .fa-chevron-right {
+    color: rgb(3, 28, 78);
+    font-size: 2.8em;
+    display: inline;
+}
+
+.carousel {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.designer img {
+    width: 80%;
+}
+
+/* end carousel */
+
+
+
+/*=====  End of Section designer  ======*/
+
+
+
+/*=============================================
+    =            Section features        =
+=============================================*/
 
 
 
 
-
-
-/*=====  End of Section comment block  ======*/
+/*=====  End of Section features  ======*/
 
 
 
