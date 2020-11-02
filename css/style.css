@@ -1,34 +1,42 @@
-/* codie css digila ocean */
 
-/* classi utility */
+/*=============================================
+  =            CSS DIGITAL OCEAN            =
+=============================================*/
+
+
+
+/*----------  Classi utility  ----------*/
 
 body {
     padding-top: 50px;
 }
 
-.jumbotron {
-    background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
-    background-size: cover;
-    margin-bottom: 0;
-}
-
-.card {
-    background-color: white;
-
+.container {
+    width: 1200px !important;
 }
 
 .p-0 {
-  padding: 0 5px;
+    padding: 0;
+}
+
+.px_5 {
+    padding: 5px;
 }
 
 .py_10 {
     padding: 10px;
 }
 
-/* end classi utility  */
+.p_top {
+    padding-top: 20px;
+}
 
 
-/* color */
+/*----------  End Classi utility  ----------*/
+
+
+
+/*----------  Color palette  ----------*/
 
 
 .bg_white {
@@ -42,78 +50,271 @@ body {
 .bg_electric_blue {
     background-color: #004AFF;
 }
+
 .bg_blue {
     background-color: #00229D;
 }
 
 .bg_dark_blue {
-    background-color: #031C4E;
+    background-color: rgb(3, 28, 78);
+}
 
+.bg_light_azure {
+    background-color: rgb(87, 154, 255);
+}
+.color_white {
+    color: white;
+}
+
+.color_dark_blue {
+    color: rgb(3, 28, 78);
+}
+
+.color_azure {
+    color: rgb(0, 106, 255);
 }
 
 
-/* end color */
+/*----------  End Color Palette  ----------*/
 
 
 
-/* navbar  */
+/*=============================================
+        =            Navbar            =
+=============================================*/
 
 nav {
     margin-bottom: 0 !important;
     border: none !important;
 }
 
-#logo-google {
-     height: 18px;
- }
+.navbar-nav {
+    padding: 10px;
+    line-height:  0 !important;
+}
 
-.loghi {
-     background-color: #f3f5f9;
- }
+#logo-digital_ocean {    
+    width: 55%;
+    margin: auto;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav > li > i {
+    color: rgb(3, 28, 78);
+}
+
+.btn_custom {
+    color: rgb(0, 106, 255) !important;
+    border: 1px solid rgb(0, 106, 255) !important;
+    padding: 5px 7px !important;
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+
+/*=====  End Navbar ======*/
+
+
+
+/*=============================================
+        =           Jumbotron          =
+=============================================*/
+
+.jumbotron {
+    background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.jumbo_custom_1 {
+    padding-top: 4rem;
+    padding-left: 85px;
+} 
+
+.jumbo_custom_2 {
+   padding: 20px 0 30px 0;
+   margin-top: 4rem;
+   margin-left: 60px;
+}
+
+.col-md-5 {
+    padding: 0 !important;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+}
+
+.jumbotron p {
+    padding-right: 20px;
+    font-size: 20px !important;
+}
+
+.title {
+    font-size: 28px !important;
+}
+
+h2.color_darkblue {
+    padding: 20px 20px 0 20px;
+}
+
+h2.color_azure {
+    margin-top: 0 !important;
+}
+
+.form_custom {
+    width: 90%;
+    margin: auto;
+}
+
+input.form-control {
+    margin: 10px 0 !important;
+    border-color: rgb(238, 238, 238);
+}
+
+::placeholder {
+    color: rgb(117, 117, 117) !important;
+    opacity: 1; /* Firefox */
+    font-size: 16px;
+}
+
+:-ms-input-placeholder {        /* Internet Explorer 10-11 */
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+}
+
+::-ms-input-placeholder {       /* Microsoft Edge */ 
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+}
+
+#logo_google {
+    height: 18px;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+}
+
+.jumbotron small > a {
+    text-decoration: rgb(0, 106, 255) underline;
+    font-weight: bold;
+}
+
+.jumbotron small {
+    margin-bottom: 65px;
+    color: rgb(3, 28, 78);
+    font-weight: bold;
+}
+
+button.btn:nth-child(3) {
+    background-color: rgb(87, 154, 255);
+    border-color: rgb(87, 154, 255);
+    font-weight: bold;
+}
+
+button.btn:nth-child(4) {
+    box-shadow: 2px 2px rgb(238, 238, 238);
+    font-weight: bold;
+    position: relative;
+}
+
+/*=====  End Jumbotron ======*/
+
+
+/*=====  End Header ======*/
+
+
+/*=============================================
+    =            Section loghi            =
+=============================================*/
+
 
 .loghi img {
-     width: 100%;
- }
+    width: 100%;
+}
 
 .scale ul {
-   border-left: 1px solid grey;
-   padding-left: 10px;
+    border-left: 1px solid grey;
+    padding-left: 10px;
 }
 
 .scale li {
-   line-height: 4.5rem;
-   list-style: none;
-   color: grey;
-   font-size: 2rem;
+    line-height: 4.5rem;
+    list-style: none;
+    color: grey;
+    font-size: 2rem;
 }
 
-.riga {
-   line-height: 123.23px;
-}
 
-/* end navbar */
 
+/*=====  End of Section comment block  ======*/  
 
 
 /* section table data */
 
-#table_data{
-     background-color: blue;
-     color: white;
- }
+#table_data {
+    background-color: blue;
+    color: white;
+}
 
- #table_data .title{
-     padding-top: 4rem;
-     padding-bottom: 20px;
- }
+#table_data .title {
+    padding-top: 4rem;
+    padding-bottom: 20px;
+}
 
- .border-bottom{
-     border-bottom: 1px solid white;
- }
+.border-bottom {
+    border-bottom: 1px solid white;
+}
+
+.strong {
+    font-weight: bold;
+}
 
 /* #table_data .row:not(:last-child) - per i bordi */
 
-/* section table data */
+/* end section table data */
+
 
 /* section rockerbox */
 
+
+
+
+
+
+
+
+/* end section rockerbox */
+
+/* end main */
+
+/* footer */
+
+footer {
+    position: relative;
+}
+
+.chatbot {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+
+.chatbot-text {
+    color: blue;
+    display: inline-block; 
+    width: 60%;
+    margin: 0 !important;
+    padding: 5px;
+}
+
+.chatbot-logo {
+    height: 75px;
+    margin-bottom: 35px;
+}
+
+/* end footer */

@@ -20,16 +20,15 @@
     <!-- css MediaQuery  -->
 
     <link rel="stylesheet" href="css/mediaquery.css">
-
-
   </head>
+  
+  
   <body>
     <header class="site_header">
 
       <!-- navbar -->
       <nav class="navbar navbar-default navbar-fixed-top">
-
-        <div class="container-fluid">
+        <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -38,30 +37,46 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">DigitalOcean</a>
+            <a class="navbar-brand" href="#">
+              <img id="logo-digital_ocean" src="img/digital-ocean-nav.png" alt="digital ocean logo">
+            </a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Community</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li>
+                <a href="#">Products
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">Customers</a>
+              </li>
+              <li>
+                <a href="#">Community
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Docs</a></li>
-              <li><a href="#">Support</a></li>
+              <li>
+                <a href="#">Support
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </li>
               <li><a href="#">Login</a></li>
               <li>
-                <a class="btn btn-default" href="#" role="button">Sign Up</a>
+                <a class="btn btn-default btn_custom" href="#" role="button">Sign Up</a>
               </li>
             </ul>
           </div>
           <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-
       </nav>
       <!-- / navbar -->
 
@@ -69,32 +84,33 @@
       <div class="jumbotron">
         <div class="container">
           <div class="row">
-            <div class="col-lg-7">
-              <h1>The simplest cloud platform for developers &amp; teams</h1>
-              <p class="lead"> Deploy, manage, and scale cloud applications faster and more
-              efficiently on DigitalOcean. We make managing infrastructure easy for teams and
-              businesses, whether you're running one virtual machine or ten thousand.
-              </p>
+            <div class="col-md-7">
+              <div class ="jumbo_custom_1 color_white">
+                <h1 class="strong">The simplest cloud platform for developers &amp; teams</h1>
+                <p class="lead"> Deploy, manage, and scale cloud applications faster and more
+                efficiently on DigitalOcean. We make managing infrastructure easy for teams and
+                businesses, whether you're running one virtual machine or ten thousand.
+                </p>
+              </div>
             </div>
-            <div class="col-lg-5">
-              <div class="card img-rounded text-center">
-                <h2>Deploy your app in seconds.</h2>
-                <h2>Get started now.</h2>
+            <div class="col-md-5">
+              <div class="jumbo_custom_2 img-rounded text-center bg_white">
+                <h2 class ="color_dark_blue title strong">Deploy your app in seconds.</h2>
+                <h2 class ="color_azure strong">Get started now.</h2>
                 <form>
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
-                    <input type="password" name="" id="input" class="form-control" required="required" title="" placeholder="Password">
+                    <div class="form_custom">
+                      <input type="email" class="form-control" placeholder="Email">
+                      <input type="password" id="input" class="form-control" required="required" placeholder="Password">
+                      <button type="submit" class="btn btn-primary btn-block"> Create your account </button>
+                      <button type="submit" class="btn btn-default btn-block">
+                        <img src="img/GoogleLogo.svg" alt="" id="logo_google"> Sign up with google
+                      </button>
+                    </div>
                   </div>
-                  <button type="submit" class="btn btn-primary btn-block">
-                    Create your account
-                  </button>
-                  <button type="submit" class="btn btn-default btn-block">
-                    <img src="./img/GoogleLogo.svg" alt="" id="logo-google" />
-                    Sign up with google
-                  </button>
                 </form>
                 <small> By signing up you agree to the
-                <a href="#">Terms of Service</a>.
+                  <a href="#">Terms of Service</a>.
                 </small>
               </div>
             </div>
@@ -247,7 +263,7 @@
             <div class="col-lg-3">Colonna 3</div>
           </div>
           <div class="row">
-            <div class="col-lg-12 text-center">
+            <!-- <div class="col-lg-12 text-center"> -->
               <h3>Create compute servers in 55 seconds or less.</h3>
               <i class="fas fa-circle"></i><i class="far fa-circle"></i>
               <i class="far fa-circle"></i><i class="far fa-circle"></i>
@@ -409,7 +425,7 @@
             <div class="col-md-3 text-right">CHEV</div>
             <div class="col-md-6">
               <div class="rockerbox">
-                <img src="img/rockerbox_logo.png" alt="">
+                <footer src="img/rockerbox_logo.png" alt="">
                 <p class ="lead">"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
               <div> 
                 <span> <strong> Rick O'Tool </strong> <br> Co-Founder and CTO </span>
@@ -443,20 +459,108 @@
       </section>
       <!-- / sezione start -->
 
-
-    
-    
-
-
-
-
-
-
-
-
     </main>
     <!-- / main -->
-    <footer class ="site_footer"> </footer>
+
+    <!-- footer -->
+    <footer class ="site_footer bg_blue"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo-mark">
+              <img src="./img/digitalocean-logo-mark.svg" alt="" />
+            </div>
+            <div class="copy small">
+              2018 DigitalOcean, LLC. All rights reserved.<br />
+              <span>Proudly made in NY</span>
+            </div>
+            <div class="social">
+              <ul class="list-inline list-unstyled">
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-3">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h5>Support</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chatbot text-right">
+        <p class="chatbot-text bg-white text-left img-rounded">
+          Can i help answer any questions you have about DigitalOcean?
+        </p>
+        <img src="img/shark.png" alt="" class="chatbot-logo" />
+      </div>
+    </footer>
+
 
   </body>
 </html>
