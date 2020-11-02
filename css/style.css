@@ -20,11 +20,11 @@ body {
 }
 
 .px_5 {
-    padding: 5px;
+    padding: 0 5px;
 }
 
 .py_10 {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .p_top {
@@ -47,8 +47,12 @@ body {
     background-color: #F3F5F9;
 }
 
+.bg_light_azure {
+    background-color: rgb(87, 154, 255);
+}
+
 .bg_electric_blue {
-    background-color: #004AFF;
+    background-color: #0067FF;
 }
 
 .bg_blue {
@@ -59,23 +63,28 @@ body {
     background-color: rgb(3, 28, 78);
 }
 
-.bg_light_azure {
-    background-color: rgb(87, 154, 255);
-}
+
 .color_white {
     color: white;
+}
+.color_loghi {
+color: rgb(111,123,151);
+}
+
+.color_azure {
+    color: rgb(0, 100, 255);
 }
 
 .color_dark_blue {
     color: rgb(3, 28, 78);
 }
 
-.color_azure {
-    color: rgb(0, 106, 255);
-}
-
 
 /*----------  End Color Palette  ----------*/
+
+
+
+/*----------  HEADER  ----------*/
 
 
 
@@ -103,8 +112,8 @@ nav {
 }
 
 .btn_custom {
-    color: rgb(0, 106, 255) !important;
-    border: 1px solid rgb(0, 106, 255) !important;
+    color: rgb(0, 100, 255) !important;
+    border: 1px solid rgb(0, 100, 255) !important;
     padding: 5px 7px !important;
     margin-left: 10px !important;
     margin-top: 10px !important;
@@ -200,7 +209,7 @@ input.form-control {
 }
 
 .jumbotron small > a {
-    text-decoration: rgb(0, 106, 255) underline;
+    text-decoration: rgb(0, 100, 255) underline;
     font-weight: bold;
 }
 
@@ -225,29 +234,45 @@ button.btn:nth-child(4) {
 /*=====  End Jumbotron ======*/
 
 
-/*=====  End Header ======*/
+/*=====  END HEADER ======*/
+
+
+
+
+/*=====  MAIN ======*/
 
 
 /*=============================================
     =            Section loghi            =
 =============================================*/
 
-
-.loghi img {
-    width: 100%;
+h4 {
+    padding: 40px;
 }
 
-.scale ul {
-    border-left: 1px solid grey;
-    padding-left: 10px;
+.riga {
+    height:auto;
+    padding-left: 85px;
 }
 
-.scale li {
-    line-height: 4.5rem;
-    list-style: none;
-    color: grey;
-    font-size: 2rem;
+.stories {
+    margin: 40px 0;
+    color: rgb(0, 100, 255);
 }
+
+.stories  i {
+    margin-left: 15px;
+    color: rgb(0, 100, 255);
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -275,6 +300,20 @@ button.btn:nth-child(4) {
 }
 
 /* #table_data .row:not(:last-child) - per i bordi */
+
+.scale ul {
+    border-left: 1px solid grey;
+    padding-left: 10px;
+}
+
+.scale li {
+    line-height: 4.5rem;
+    list-style: none;
+    color: grey;
+    font-size: 2rem;
+}
+
+
 
 /* end section table data */
 
