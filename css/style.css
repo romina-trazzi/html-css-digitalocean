@@ -31,6 +31,9 @@ body {
     padding-top: 20px;
 }
 
+.m_top {
+    margin-top: 15px;
+}
 
 /*----------  End Classi utility  ----------*/
 
@@ -167,7 +170,7 @@ nav {
     font-size: 28px !important;
 }
 
-h2.color_darkblue {
+h2.color_dark_blue {
     padding: 20px 20px 0 20px;
 }
 
@@ -266,6 +269,55 @@ h4 {
 }
 
 
+/*=====  End of Section loghi  ======*/  
+
+
+/*=============================================
+    =            Section scale           =
+=============================================*/
+
+.lead.color_loghi {
+    padding-bottom: 50px;
+}
+
+/* lista laterale */
+
+.scale ul {
+    border-left: 1px solid grey;
+    padding-left: 10px;
+}
+
+.scale li {
+    line-height: 4.5rem;
+    list-style: none;
+    color: grey;
+    font-size: 2rem;
+}
+
+/* end lista laterale*/
+
+.scale h4 {
+    padding: 0 !important;
+}
+
+div.color_dark_blue:nth-child(1) {
+    padding: 0 !important;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+div.color_dark_blue:nth-child(3) {
+    padding: 0 !important;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+div.color_dark_blue:nth-child(2), div.color_dark_blue:nth-child(4) {
+    padding: 0 !important;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 35%;
+}
 
 
 
@@ -273,10 +325,9 @@ h4 {
 
 
 
+/*=====  End of Section comment block  ======*/
 
 
-
-/*=====  End of Section comment block  ======*/  
 
 
 /* section table data */
@@ -300,20 +351,6 @@ h4 {
 }
 
 /* #table_data .row:not(:last-child) - per i bordi */
-
-.scale ul {
-    border-left: 1px solid grey;
-    padding-left: 10px;
-}
-
-.scale li {
-    line-height: 4.5rem;
-    list-style: none;
-    color: grey;
-    font-size: 2rem;
-}
-
-
 
 /* end section table data */
 
