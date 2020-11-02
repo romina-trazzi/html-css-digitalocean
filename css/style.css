@@ -536,6 +536,10 @@ div.col-sm-12:nth-child(2) {
 
 /*=====  FOOTER ======*/
 
+footer {
+    position: relative;
+}
+
 .site_footer {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -550,24 +554,6 @@ div.col-sm-12:nth-child(2) {
     line-height: 2em;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* end main */
-
-/* footer */
-
-footer {
-    position: relative;
-}
-
 .chatbot {
     position: absolute;
     bottom: 0px;
@@ -575,11 +561,12 @@ footer {
 }
 
 .chatbot-text {
-    color: blue;
+    color: rgb(3, 28, 78);
+    background-color: white;
     display: inline-block; 
     width: 60%;
     margin: 0 !important;
-    padding: 5px;
+    padding: 5px 10px 5px 5px;
 }
 
 .chatbot-logo {
@@ -587,4 +574,5 @@ footer {
     margin-bottom: 35px;
 }
 
-/* end footer */
+
+/* END FOOTER */
